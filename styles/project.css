@@ -2,11 +2,12 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
 /* header style start  */
-.header{
+.header {
     max-width: 1440px 670px;
     /* background-image: url('../images/donation0.jpg'); */
-    background-image:url('../images/donation1.jpg') ,linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+    background-image: url('../images/donation1.jpg'), linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,8 +17,9 @@
     justify-content: center;
 
 }
+
 .banner-title {
-    font-weight:900;
+    font-weight: 900;
     font-size: 5rem;
     margin-bottom: 20px;
     text-align: center;
@@ -40,10 +42,90 @@
     background: #FF5959;
     border: none;
     padding: 16px 12px;
+    border-radius: 10px;
 }
-.btn{
+
+.btn {
     text-align: center;
 }
-.difference{
-    padding:200px 400px;
+
+.difference {
+    padding: 200px 400px;
+}
+
+/* donate today styles */
+.donate {
+    margin-top: 130px;
+    text-align: center;
+    display: block;
+}
+
+.title-head {
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin-bottom: 20px;
+}
+
+.title-description {
+    font-weight: 400;
+    font-size: 23px;
+    color: #707070;
+    margin-bottom: 50px;
+}
+
+.taka {
+    gap: 400px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.btn-amount {
+    font-size: 30px;
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    padding: 25px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-bottom: 60px;
+}
+
+.deadline {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #B3B3B3;
+}
+
+/* .line {
+    right: 338px;
+    width: 765px;
+    border: 1px solid #DADADA;
+    margin-bottom: 30px;
+} */
+.line {
+    width: 50px 50px;
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 12px;
+    background: black;
+    margin-bottom: 50px;
+}
+/* our donation plan styles  */
+.donate-part {
+    margin-top: 100px;
+    text-align: center;
+}
+.donate-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+}
+
+.donate-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
 }
