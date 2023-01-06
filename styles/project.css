@@ -19,15 +19,16 @@
 
 .banner-title {
     font-weight: 900;
-    font-size: 5rem;
+    font-size: 4rem;
     margin-bottom: 20px;
     text-align: center;
     color: #FFFFFF;
+    padding-top: 12%;
 }
 
 .banner-description {
     font-weight: 400;
-    font-size: 35px;
+    font-size: 28px;
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 30px;
